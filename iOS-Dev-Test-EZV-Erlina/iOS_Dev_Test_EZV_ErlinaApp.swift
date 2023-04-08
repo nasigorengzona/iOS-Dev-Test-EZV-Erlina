@@ -13,7 +13,7 @@ struct iOS_Dev_Test_EZV_ErlinaApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

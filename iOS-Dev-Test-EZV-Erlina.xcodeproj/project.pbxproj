@@ -8,21 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		ADF43CB929DFB1BA00D35AD7 /* iOS_Dev_Test_EZV_ErlinaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CB829DFB1BA00D35AD7 /* iOS_Dev_Test_EZV_ErlinaApp.swift */; };
-		ADF43CBB29DFB1BA00D35AD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CBA29DFB1BA00D35AD7 /* ContentView.swift */; };
+		ADF43CBB29DFB1BA00D35AD7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CBA29DFB1BA00D35AD7 /* HomeView.swift */; };
 		ADF43CBD29DFB1BC00D35AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF43CBC29DFB1BC00D35AD7 /* Assets.xcassets */; };
 		ADF43CC029DFB1BC00D35AD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF43CBF29DFB1BC00D35AD7 /* Preview Assets.xcassets */; };
 		ADF43CC229DFB1BC00D35AD7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CC129DFB1BC00D35AD7 /* Persistence.swift */; };
 		ADF43CC529DFB1BC00D35AD7 /* iOS_Dev_Test_EZV_Erlina.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CC329DFB1BC00D35AD7 /* iOS_Dev_Test_EZV_Erlina.xcdatamodeld */; };
+		ADF43CCF29DFB2B100D35AD7 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CCE29DFB2B100D35AD7 /* Product.swift */; };
+		ADF43CD129DFB2CA00D35AD7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CD029DFB2CA00D35AD7 /* HomeViewModel.swift */; };
+		ADF43CD429DFB36B00D35AD7 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CD329DFB36B00D35AD7 /* APICaller.swift */; };
+		ADF43CD829DFB90500D35AD7 /* ListComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CD729DFB90500D35AD7 /* ListComponentView.swift */; };
+		ADF43CDA29DFBB0A00D35AD7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CD929DFBB0A00D35AD7 /* Extensions.swift */; };
+		ADF43CDD29DFBE5B00D35AD7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CDC29DFBE5B00D35AD7 /* DetailView.swift */; };
+		ADF43CDF29DFBE8F00D35AD7 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CDE29DFBE8F00D35AD7 /* DetailViewModel.swift */; };
+		ADF43CE929E1B61800D35AD7 /* ListComponentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF43CE829E1B61800D35AD7 /* ListComponentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADF43CB529DFB1BA00D35AD7 /* iOS-Dev-Test-EZV-Erlina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Dev-Test-EZV-Erlina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF43CB829DFB1BA00D35AD7 /* iOS_Dev_Test_EZV_ErlinaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Dev_Test_EZV_ErlinaApp.swift; sourceTree = "<group>"; };
-		ADF43CBA29DFB1BA00D35AD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADF43CBA29DFB1BA00D35AD7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ADF43CBC29DFB1BC00D35AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF43CBF29DFB1BC00D35AD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADF43CC129DFB1BC00D35AD7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		ADF43CC429DFB1BC00D35AD7 /* iOS_Dev_Test_EZV_Erlina.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Dev_Test_EZV_Erlina.xcdatamodel; sourceTree = "<group>"; };
+		ADF43CCE29DFB2B100D35AD7 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		ADF43CD029DFB2CA00D35AD7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		ADF43CD329DFB36B00D35AD7 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		ADF43CD729DFB90500D35AD7 /* ListComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponentView.swift; sourceTree = "<group>"; };
+		ADF43CD929DFBB0A00D35AD7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ADF43CDC29DFBE5B00D35AD7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ADF43CDE29DFBE8F00D35AD7 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		ADF43CE829E1B61800D35AD7 /* ListComponentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListComponentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +71,11 @@
 		ADF43CB729DFB1BA00D35AD7 /* iOS-Dev-Test-EZV-Erlina */ = {
 			isa = PBXGroup;
 			children = (
+				ADF43CD229DFB35000D35AD7 /* Helper */,
+				ADF43CCD29DFB23200D35AD7 /* View */,
+				ADF43CCC29DFB22A00D35AD7 /* ViewModel */,
+				ADF43CCB29DFB21E00D35AD7 /* Model */,
 				ADF43CB829DFB1BA00D35AD7 /* iOS_Dev_Test_EZV_ErlinaApp.swift */,
-				ADF43CBA29DFB1BA00D35AD7 /* ContentView.swift */,
 				ADF43CBC29DFB1BC00D35AD7 /* Assets.xcassets */,
 				ADF43CC129DFB1BC00D35AD7 /* Persistence.swift */,
 				ADF43CC329DFB1BC00D35AD7 /* iOS_Dev_Test_EZV_Erlina.xcdatamodeld */,
@@ -71,6 +90,59 @@
 				ADF43CBF29DFB1BC00D35AD7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADF43CCB29DFB21E00D35AD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43CCE29DFB2B100D35AD7 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADF43CCC29DFB22A00D35AD7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43CD029DFB2CA00D35AD7 /* HomeViewModel.swift */,
+				ADF43CDE29DFBE8F00D35AD7 /* DetailViewModel.swift */,
+				ADF43CE829E1B61800D35AD7 /* ListComponentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADF43CCD29DFB23200D35AD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43CDB29DFBE5000D35AD7 /* Detail */,
+				ADF43CD629DFB8B800D35AD7 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ADF43CD229DFB35000D35AD7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43CD329DFB36B00D35AD7 /* APICaller.swift */,
+				ADF43CD929DFBB0A00D35AD7 /* Extensions.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ADF43CD629DFB8B800D35AD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43CBA29DFB1BA00D35AD7 /* HomeView.swift */,
+				ADF43CD729DFB90500D35AD7 /* ListComponentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		ADF43CDB29DFBE5000D35AD7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ADF43CDC29DFBE5B00D35AD7 /* DetailView.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +216,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF43CC229DFB1BC00D35AD7 /* Persistence.swift in Sources */,
-				ADF43CBB29DFB1BA00D35AD7 /* ContentView.swift in Sources */,
+				ADF43CDA29DFBB0A00D35AD7 /* Extensions.swift in Sources */,
+				ADF43CD129DFB2CA00D35AD7 /* HomeViewModel.swift in Sources */,
+				ADF43CDD29DFBE5B00D35AD7 /* DetailView.swift in Sources */,
+				ADF43CBB29DFB1BA00D35AD7 /* HomeView.swift in Sources */,
+				ADF43CD429DFB36B00D35AD7 /* APICaller.swift in Sources */,
+				ADF43CE929E1B61800D35AD7 /* ListComponentViewModel.swift in Sources */,
+				ADF43CD829DFB90500D35AD7 /* ListComponentView.swift in Sources */,
+				ADF43CCF29DFB2B100D35AD7 /* Product.swift in Sources */,
 				ADF43CC529DFB1BC00D35AD7 /* iOS_Dev_Test_EZV_Erlina.xcdatamodeld in Sources */,
+				ADF43CDF29DFBE8F00D35AD7 /* DetailViewModel.swift in Sources */,
 				ADF43CB929DFB1BA00D35AD7 /* iOS_Dev_Test_EZV_ErlinaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
